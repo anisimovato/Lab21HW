@@ -12,7 +12,7 @@ namespace Lab21HW
         static int[,] garden;
         static int a;
         static int b;
-        static object Loker = new object();
+        
 
         static void Main(string[] args)
         {
@@ -38,7 +38,7 @@ namespace Lab21HW
                 }
                 Console.WriteLine();
             }
-            Console.ReadLine();
+            Console.ReadKey ();
         }
         public static void Sad1()
         {
